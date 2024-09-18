@@ -1,0 +1,52 @@
+.centrediv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main{
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 80px;
+}
+
+.topnavbar{
+    align-items: center;
+    background-color: purple;
+    font-family: fantasy;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.topnavbar a{
+    color: turquoise;
+    text-align: center;
+    padding: 16px;
+    font-size: 24px;
+}
+
+.topnavbar a:hover{
+    background-color: turquoise;
+    border: 4px thick;
+    border-style: double;
+    border-radius: 15%;
+    color: purple;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.topnavbar img{
+    border: 4px thick;
+    border-color: violet;
+    border-style: ridge;
+    border-radius: 50%;
+    float: right;
+    margin-top: 4px;
+    margin-right: 36px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    padding: 2px;
+    width: 32px;
+}

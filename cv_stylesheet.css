@@ -1,0 +1,20 @@
+.main{
+    background-color: black;
+}
+
+#content_left{
+    padding: 0% 25% 0% 5%;
+    border-right: 4px;
+    border-color: aqua;
+    float: left;
+    width: 80%;
+}
+
+#content_right{
+    padding: 0% 5% 0% 25%;
+    border-left: 4px;
+    border-color: aqua;
+    float: right;
+    width: 80%;
+    text-align: right;
+}
